@@ -1,0 +1,70 @@
+@font-face {
+    font-family: titaniaReg;
+    src: url("./fonts/Titania-Regular.ttf");
+}
+
+.car {
+    font-family: titaniaReg;
+    color: white;
+    background-image: url("./images/car.avif");
+    background-position: center;
+    height: 10%;
+    width: 20%;
+    padding: 2%;
+    margin: 3%;
+    box-sizing: border-box;
+    border-radius: 40px 40px;
+}
+
+.bicycle {
+    font-family: titaniareg;
+    color: white;
+    background-color: black ;
+    background-image: linear-gradient(pink, purple);
+    height: 10%;
+    width: 20%;
+    padding: 2%;
+    margin: 3%;
+    box-sizing: border-box;
+    border-radius: 40px 40px;
+}
+
+#cbutton {
+    font-family: titaniareg;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#cbutton:hover {
+    font-family: titaniareg;
+    padding: 10px;
+    color: tomato;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#bbutton {
+    font-family: titaniareg;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #0d001a ;
+    border: none;
+}
+
+#bbutton:hover {
+    font-family: titaniareg;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(purple, pink);
+    border: none;
+    cursor: pointer;
+}
+
+
