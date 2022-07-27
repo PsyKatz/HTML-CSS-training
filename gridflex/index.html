@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout / Flex box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #1c1c1c;
+        color: white;
+      }
+      .item {
+        background-color: rgb(5, 98, 67);
+        display: inline;
+      }
+      .container {
+        display: flex; /* Block or inline */
+        flex-direction: row; /* row or column */
+        gap: 10px; /* space-between the elements */
+        justify-content: space-evenly;
+        background-color: #f6f6f6;
+        color: #1c1c1c;
+      }
+      .buttons {
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Logo</div>
+      <div class="buttons">
+        <div>Log In</div>
+        <div>Explore</div>
+        <div>About</div>
+        <div>Gold</div>
+        <div>Blog</div>
+      </div>
+    </div>
+  </body>
+</html>
