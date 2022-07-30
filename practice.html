@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="practice.css">
 </head>
+
 <body>
-    <h1>Hellow from John!</h1>
-    <div class="car"> 
+    <h1 id="jb" onclick="changeJohnTextColor()" style="color: tomato;"> Hellow from John!</h1>
+
+    <div class="car">
         <h2>
-            Car: <span id="carPrice" style="color: tomato">$1,999</span>
+            Car: <span id="cprice" style="color: tomato">$1,999</span>
         </h2>
         <p>Car Model <span style="color: tomato">2045</span>, with <Span style="color: tomato">200km</Span> wheelset</p>
-        <button id="cbutton" style="background-color: tomato">Buy Car</button>
+        <button id="cbutton" style="background-color: tomato" onclick="handleFirstButtonTextChange()">Buy Car</button>
     </div>
 
     <div class="bicycle">
         <h2>
-            Bicycle: <span style="color: #0d001a">$199</span>
+            Bicycle: <span id="bcost" style="color: #0d001a">$199</span>
         </h2>
-        <p>Bicycle Model <span style="color: #0d001a">2050</span>, with <span style="color: #0d001a" >20km</span> wheelset</p>
-        <button id="bbutton" style="background-color: white">Buy Bicycle</button>
+        <p>Bicycle Model <span style="color: #0d001a">2050</span>, with <span style="color: #0d001a">20km</span>
+            wheelset</p>
+        <button id="bbutton" style="background-color: white" onclick="handleSecondButtonTextChange()">Buy
+            Bicycle</button>
 
         <script>
-         
+
+            function handleSecondButtonTextChange() {
+                document.getElementById("bcost").innerHTML = "SOLD";
+                document.getElementById("bcost").style.color = "lightPink";
+                document.getElementsByTagName("body")[0].style.backgroundColor = "pink";
+            }
+
+            function handleFirstButtonTextChange() {
+                document.getElementById("cprice").innerHTML = "SOLD";
+                document.getElementById("cprice").style.color = "white";
+                 document.getElementsByTagName("body")
+                [0].style.backgroundColor = "#800000";
+            }
+
+            function changeJohnTextColor() {
+                document.getElementById("jb").style.color = "purple";
+            }
+
         </script>
     </div>
 </body>
+
 </html>

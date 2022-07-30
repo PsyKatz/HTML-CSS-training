@@ -1,0 +1,54 @@
+body {
+    background-color: #615959;
+    color: white;
+  }
+ 
+
+  .navBar {
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 60px;
+    line-height: 5px;
+    font-size: 30px;
+    list-style-type: none;
+
+  }
+
+  .logoDefault {
+    font-size: 35px;
+    line-height: 5px;
+    margin-top: 5;
+  }
+
+  .explore {
+    font-size: 50px;
+    margin-top: 90px;
+    margin-bottom: -10px;
+    margin-left: 750px;
+  }
+
+  .exploreBar {
+    display: inline-flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 35px;
+    margin-left: 750px;
+    background-color: bisque;
+    padding: 24px 24px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+  }
+
+  #searchBar {
+    border: none;
+    border-radius: 20px; 
+    width: 45%;   
+    height: 50px;
+    margin-left: 745px;
+    font-size: 25px;
+  }
