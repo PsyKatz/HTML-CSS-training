@@ -1,51 +1,57 @@
 body {
-    background-color: #693c3c;
-    color: rgb(194, 175, 175);
+    background-color: rgb(255, 255, 255);
+  }
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 62px;
+    min-width: 100%;
+    box-shadow: 0 5px 8px rgb(216, 212, 212) ;
   }
 
   .logoDefault {
-    font-size: 30px;
-    line-height: 5px;
-    margin-top: px;
-    margin-left: 180px;
-    height: 29px;
+    display: flex;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    line-height: 1px;
+    height: 40px;
     width: auto;
   }
- 
 
   .navBar {
-    justify-content: end;
     display: flex;
-    flex-direction: row;
-    gap: 35px;
-    margin-top: 0;
-    margin-right: 150px;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 10px;
+    margin-right: 280px;
     line-height: 1px;
     font-size: 20px;
     list-style-type: none;
-    color:rgb(244, 233, 219);
+    color:rgb(15, 15, 15);
 
   }
 
 
   .explore {
     font-size: 30px;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: -10px;
-    margin-left: 280px;
-    color: rgb(244, 233, 219);
+    margin-left: 300px;
+    color:black;
     padding: 10px;
+    padding-bottom: 20px;
   }
 
   .exploreBar {
     display: inline-flex;
-    gap: 50px;
+    gap: 25px;
     list-style-type: none;
     font-size: 20px;
     color: black;
-    margin-left: 250px;
+    margin-left: 275px;
     padding-top: 35;
-    padding-bottom: 35;
+    padding-bottom: 20px;
     padding-left: 35px;
     padding-right: 35px;
     
@@ -53,41 +59,51 @@ body {
 
   #searchBar {
     border: none;
-    border-radius: 30px; 
-    width: 60%;   
+    border-radius: 28px;
+    border-style: solid;
+    border-color: rgb(216, 212, 212) ;
+    border-width: 2px;
+    width: 55%;   
     height: 45px;
-    margin-left: 280px;
+    margin-left: 310px;
     font-size: 15px;
+    padding-left: 10px;
+
   }
+  
 
   .art {
-    background-color: rgb(244, 233, 219);;
-    padding: 10px;
+    background-color: #f5f5f5c4;
+    padding: 13px;
     width: 60px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 20px;
   }
 
   .cosplay {
-    background-color: rgb(244, 233, 219);;
-    padding: 10px;
+    background-color: #f5f5f5c4;
+    padding: 13px;
     width: 90px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 20px;
   }
 
   .commissions {
-    background-color: rgb(244, 233, 219);;
-    padding: 10px;
+    background-color: #f5f5f5c4;
+    padding: 13px;
     width: 200px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 20px;
   }
 
   .featured {
-  background-color: rgb(244, 233, 219);
-  padding: 10px;
+  background-color: #f5f5f5c4;
+  padding: 13px;
   width: 200px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-size: 20px;
   }
